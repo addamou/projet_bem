@@ -1,0 +1,132 @@
+/*css de body*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+/*css de la page du site*/
+.page{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+/*css de la barre de navigation*/
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c4c4c4;
+    height: 120px;
+}
+/*css du contenant  logo*/
+.nav_nav-logo{
+    height: 119px ;
+    width: 177px;
+}
+/*css du logo*/
+#logo{
+    height: 119px ;
+    width: 177px;
+    border-radius: 100px;
+}
+/*css du contenant des boutons de navigation*/
+.nav_nav-button{
+    display: flex;
+}
+/*css des boutons de naviagtion*/
+.nav_nav-button_liste{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+/* css des liens de la barre de navigation*/
+a{ 
+    float: left;
+    margin-right: 20px;
+    color: blue;
+    font-size: 28px;
+    text-decoration: none;
+}
+/*option hover*/
+a:hover {
+    background-color:  white;
+    border-radius: 100%;
+    width: 160px;
+    font-weight: bolder;
+}
+/*css du conteneur*/
+.content{
+    display:flex ;
+    flex-direction: column;
+}
+/*css de la boite qui contient l'image de fond*/
+.picture{
+    height: 210px;
+    margin: 0;
+}
+/*css de l'image de fond*/
+#picture{
+    height: 210px;
+    width: 100%;
+}
+/*css du contenant des sections*/
+.acceuil_sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 90 px;
+    padding: 30px;
+}
+/*css des images des sections*/
+.apersu{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 290px;
+    width: 450px;
+    margin: 20px;
+}
+/*css des images pour la div apersu et la class doit être images*/
+.image{
+    display: flex;
+    align-items: center;
+}
+.images{
+    height: 290px;
+    width: 450px;
+    border-radius: 10px;
+}
+/*css du titre des section pour h2*/
+.titre{
+    text-align: center;
+    text-justify: auto;
+    color: black;
+    margin-top: -70px;
+    border-radius: 10px;
+}
+/* css du footer*/
+.footer{
+    display: flex; 
+    position: relative;
+    bottom: 0;
+    flex-direction: column;
+    height: 120px;
+    width: 100%;
+    background-color: #c4c4c4;
+}
+/*css des icones*/
+.icons{
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
+.footer-top{
+    height: 50%;
+}
+.footer-bottom{
+    height: 50%;
+    align-self: center;
+}
+/* fin du css pour la page accueil*/
